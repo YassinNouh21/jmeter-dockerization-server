@@ -9,12 +9,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="ServerHost" elementType="Argument">
             <stringProp name="Argument.name">ServerHost</stringProp>
-            <stringProp name="Argument.value">${__P(host,localhost)}</stringProp>
+            <stringProp name="Argument.value">host.docker.internal</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="GatewayHost" elementType="Argument">
             <stringProp name="Argument.name">GatewayHost</stringProp>
-            <stringProp name="Argument.value">${__P(host,localhost)}</stringProp>
+            <stringProp name="Argument.value">host.docker.internal</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ServerPort" elementType="Argument">
