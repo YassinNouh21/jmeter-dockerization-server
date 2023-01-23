@@ -16,5 +16,4 @@ RUN    apk update \
 ENTRYPOINT ["/opt/entrypoint.sh"]
 
 COPY ./entrypoint.sh /opt/entrypoint.sh
-#COPY ./apache-jmeter-5.2.1 /opt/jmeter
 ENV HOME /opt/jmeter/
