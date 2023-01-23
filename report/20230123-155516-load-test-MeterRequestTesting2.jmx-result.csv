@@ -1,0 +1,137 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1674489323172,1089,Application Register,201,Created,172.20.0.2-Server Initialization 1-1,text,true,,369,357,1,1,https://host.docker.internal:8243/api-application-registration/register,1086,0,554
+1674489324297,46,Generate Token,200,OK,172.20.0.2-Server Initialization 1-1,text,true,,7732,13970,1,1,https://host.docker.internal:8243/token,46,0,0
+1674489323037,1635,Obtain Token,200,"Number of samples in transaction : 2, number of failing samples : 0",172.20.0.2-Server Initialization 1-1,,true,,8101,14327,1,1,null,1132,0,554
+1674489324771,100,View User Roles,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,993,247,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/roles,100,0,37
+1674489324902,161,Get Details of a Role,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,50180,257,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/roles/branch_ce,155,0,0
+1674489324730,335,Role Management,200,"Number of samples in transaction : 2, number of failing samples : 0",172.20.0.2-Prepare Environment 2-1,,true,,51173,504,1,1,null,255,0,37
+1674489325077,87,Add User moratuwa_ce,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,525,553,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,86,0,0
+1674489325194,14,Add User moratuwa_se,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,525,553,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,14,0,0
+1674489325226,8,Add User moratuwa_ee,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,525,553,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,8,0,0
+1674489325244,13,Add User moratuwa_css,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,526,555,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,13,0,0
+1674489325268,10,Add User moratuwa_to,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,525,553,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,10,0,0
+1674489325290,10,Add User moratuwa_technician,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,533,569,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,10,0,0
+1674489325315,16,Add User galle_ce,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,522,550,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,16,0,0
+1674489325350,18,Add User galle_se,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,522,550,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,18,0,0
+1674489325378,8,Add User galle_ee,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,522,550,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,8,0,0
+1674489325395,9,Add User galle_css,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,523,552,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,9,0,0
+1674489325439,9,Add User galle_to,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,522,550,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,9,0,0
+1674489325456,13,Add User galle_technician,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,530,566,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,13,0,0
+1674489325477,13,Add User leco_gm,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,521,598,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,12,0,0
+1674489325498,9,Add User leco_dgm,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,522,605,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,9,0,0
+1674489325520,8,Add User leco_agm,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,522,600,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,8,0,0
+1674489325534,9,Add User testlab_ce,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,524,603,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,9,0,0
+1674489325551,8,Add User testlab_to,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,524,605,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,8,0,0
+1674489325567,8,Add User testlab_se,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,524,605,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,8,0,0
+1674489325584,9,Add User testlab_technician,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,532,622,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,9,0,0
+1674489325600,9,Add User test_user,409,Conflict,172.20.0.2-Prepare Environment 2-1,text,false,,523,552,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,8,0,0
+1674489325619,29,Update User Details,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,634,443,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users/test_user,29,0,0
+1674489325663,45,View Users,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,3371,247,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users,45,0,0
+1674489325714,10,Get User Details,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,479,253,1,1,https://host.docker.internal:8243/api/device-mgt/v1.0/users/admin,10,0,0
+1674489325065,659,User Management,,"Number of samples in transaction : 23, number of failing samples : 20",172.20.0.2-Prepare Environment 2-1,,false,,14976,12387,1,1,null,369,0,0
+1674489325737,71,Add SIM Card(Bulk),200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successSims"":[[[[],""failedSims"":[{""imsi"":""req_test_sim_1"",""errorMsg"":""Sim \u0027req_test_sim_1 already existing. Cann...]]]]}
+
+****** comparison: {""successSims"":[[[[""req_test_sim_1"",""req_test_sim_2"",""req_test_sim_3"",""req_test_sim_4"",""req_test_sim_5"",""req_test_sim_6...]]]]}
+
+/",3160,741,1,1,https://host.docker.internal:8243/api/device-mgt/sim/v1.0/admin/devices/subtype/1/add-sims,71,0,0
+1674489325818,46,Activate Communication(Bulk),200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,509,455,1,1,https://host.docker.internal:8243/api/device-mgt/sim/v1.0/devices/activate-communication,46,0,0
+1674489325870,31,View SIM Cards,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,5232,221,1,1,https://host.docker.internal:8243/api/device-mgt/sim/v1.0/devices,31,0,0
+1674489325908,28,Get Com Module Types,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,1281,254,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/devices/com-module/subtypes,28,0,0
+1674489325941,39,Add Communication Modules(Bulk),200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_com_1"",""errorMsg"":""Com Module \u0027req_test_com_1 ...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_com_1"",""req_test_com_2"",""req_test_com_3"",""req_test_com_4"",""req_test_com_5"",""req_test_com_6...]]]]}
+
+/",3436,519,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/com-module/subtype/2/add-com-modules,39,0,0
+1674489325990,41,View Communication Module,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,5082,245,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/devices/com-module,41,0,0
+1674489326037,72,Attach SIM Cards(Bulk),200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_com_1"",""errorMsg"":""ComModule status change from INA...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_com_1"",""req_test_com_2"",""req_test_com_3"",""req_test_com_4"",""req_test_com_5"",""req_test_com_6...]]]]}
+
+/",1646,635,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/com-module/attach-sim-cards,72,0,0
+1674489326116,105,Upload Credentials(Bulk) -  Anteleco - DLMS SinglePhase,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,387,388,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/1/upload-credentials,105,0,0
+1674489326229,10,Upload Credentials(Bulk) -  MicroStar - DLMS Bulk,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,366,364,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/2/upload-credentials,10,0,0
+1674489326247,17,Upload Credentials(Bulk) -  Anteleco - DLMS 3Phase,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,387,388,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/3/upload-credentials,17,0,0
+1674489326269,17,Upload Credentials(Bulk) -  Anteleco - IEC SinglePhase,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,366,364,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/4/upload-credentials,17,0,0
+1674489326291,15,Upload Credentials(Bulk) -  Anteleco - IEC Bulk,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,366,364,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/5/upload-credentials,15,0,0
+1674489326316,10,Upload Credentials(Bulk) -  IEC 3Phase,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,366,362,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/6/upload-credentials,10,0,0
+1674489326331,18,Upload Credentials(Bulk) -  Anteleco - NMD,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,366,364,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/7/upload-credentials,18,0,0
+1674489326354,12,Upload Credentials(Bulk) -  Iskra - IEC Bulk,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,366,364,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/8/upload-credentials,12,0,0
+1674489326371,23,Add Power Meters - Anteleco - DLMS SinglePhase,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_1"",""errorMsg"":""No communication activated SIM...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_meter_1""],""failedDevices"":[                                                                  ]]]]}
+
+/",525,383,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/1/add-meters,23,0,0
+1674489326404,12,Add Power Meters - MicroStar - DLMS Bulk,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_2"",""errorMsg"":""No communication activated SIM...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_meter_2""],""failedDevices"":[                                                                  ]]]]}
+
+/",525,383,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/2/add-meters,11,0,0
+1674489326421,11,Add Power Meters(Bulk) - Anteleco - DLMS 3Phase,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_3"",""errorMsg"":""No communication activated SIM...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_meter_3"",""req_test_meter_9""],""failedDevices"":[                                               ]]]]}
+
+/",706,431,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/3/add-meters,11,0,0
+1674489326437,13,Add Power Meters(Bulk) - Anteleco - IEC SinglePhase,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_4"",""errorMsg"":""No communication activated SIM...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_meter_4""],""failedDevices"":[                                                                  ]]]]}
+
+/",525,383,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/4/add-meters,13,0,0
+1674489326455,9,Add Power Meters(Bulk) - Microstar - IEC Bulk,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_5"",""errorMsg"":""No communication activated SIM...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_meter_5""],""failedDevices"":[                                                                  ]]]]}
+
+/",525,383,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/5/add-meters,9,0,0
+1674489326482,16,Add Power Meters(Bulk) - Anteleco - IEC 3Phase,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_6"",""errorMsg"":""No communication activated SIM...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_meter_6""],""failedDevices"":[                                                                  ]]]]}
+
+/",525,383,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/6/add-meters,16,0,0
+1674489326507,10,Add Power Meters(Bulk) - Anteleco - NMD,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_7"",""errorMsg"":""No communication activated SIM...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_meter_7""],""failedDevices"":[                                                                  ]]]]}
+
+/",525,383,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/7/add-meters,10,0,0
+1674489326522,9,Add Power Meters(Bulk) - Iskra - IEC Bulk,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_8"",""errorMsg"":""No communication activated SIM...]]]]}
+
+****** comparison: {""successDevices"":[[[[""req_test_meter_8""],""failedDevices"":[                                                                  ]]]]}
+
+/",525,383,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/subtype/8/add-meters,9,0,0
+1674489326535,37,View Meters,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,8463,234,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/devices,36,0,0
+1674489326577,23,Attach Communication Modules(Bulk),200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[[[[],""failedDevices"":[{""deviceIdentifier"":""test_meter_new_1"",""errorMsg"":""ComModule status change from I...]]]]}
+
+****** comparison: {""successDevices"":[[[[""test_meter_new_1""],""failedDevices"":[                                                                  ]]]]}
+
+/",475,358,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/attach-com-modules,23,0,0
+1674489326605,12,Get Configured State Meters,200,OK,172.20.0.2-Prepare Environment 2-1,text,true,,1138,252,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/devices?status=CONFIGURED,12,0,0
+1674489326622,39,Change Meter Status from CONFIGURED to UNCLAIMED,200,OK,172.20.0.2-Prepare Environment 2-1,text,false,"Test failed: text expected to equal /
+
+****** received  : {""successDevices"":[""[[[test_meter_new_1""],""failedDevices"":[{""deviceIdentifier"":""req_test_meter_1"",""errorMsg"":""Only meters w...]]]]}
+
+****** comparison: {""successDevices"":[""[[[req_test_meter_1"",""test_meter_new_1"",""req_test_meter_2"",""req_test_meter_3"",""req_test_meter_4"",""req_t...]]]]}
+
+/",1615,604,1,1,https://host.docker.internal:8243/api/device-mgt/power-meter-dlms/v1.0/admin/devices/update-state-bulk,39,0,0
+1674489325724,937,Prepare Devices - 1,,"Number of samples in transaction : 27, number of failing samples : 13",172.20.0.2-Prepare Environment 2-1,,false,,39388,10588,1,1,null,744,0,0

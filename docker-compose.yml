@@ -1,0 +1,52 @@
+version: "2"
+services:
+  jmeter-master:
+    image : rbillon59/jmeter:latest
+    container_name: jmeter-master
+    env_file:
+      - .env
+    environment:
+      - JMX=${JMX}
+      - XMX=256m
+      - XMS=256m
+      - host=${host}
+      - port=${port}
+      - protocol=${protocol}
+      - threads=${threads}
+      - duration=${duration}
+      - rampup=${rampup}
+      - nbInjector=${nbInjector}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./scenario:/scenario
+      - ./data:/data
+      - ./log:/opt/jmeter/logs
+      - ./report:/opt/jmeter/results
+      - ./log:/temp/
+    depends_on: 
+      - jmeter-slave
+  jmeter-slave:
+    image: rbillon59/jmeter:latest
+    env_file:
+      - .env
+    environment:
+      - JMX=${JMX}
+      - XMX=${XMX}
+      - XMS=${XMS}
+      - host=${host}
+      - port=${port}
+      - protocol=${protocol}
+      - threads=${threads}
+      - duration=${duration}
+      - rampup=${rampup}
+      - SLAVE=1
+      - nbInjector=${nbInjector}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./scenario:/scenario
+      - ./data:/data
+      - ./log:/opt/jmeter/logs
+
+

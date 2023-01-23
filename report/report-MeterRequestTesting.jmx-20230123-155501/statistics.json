@@ -1,0 +1,47 @@
+{
+  "Obtain Token" : {
+    "transaction" : "Obtain Token",
+    "sampleCount" : 1,
+    "errorCount" : 1,
+    "errorPct" : 100.0,
+    "meanResTime" : 548.0,
+    "minResTime" : 548.0,
+    "maxResTime" : 548.0,
+    "pct1ResTime" : 548.0,
+    "pct2ResTime" : 548.0,
+    "pct3ResTime" : 548.0,
+    "throughput" : 1.8248175182481752,
+    "receivedKBytesPerSec" : 4.954094434306569,
+    "sentKBytesPerSec" : 0.0
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1,
+    "errorCount" : 1,
+    "errorPct" : 100.0,
+    "meanResTime" : 70.0,
+    "minResTime" : 70.0,
+    "maxResTime" : 70.0,
+    "pct1ResTime" : 70.0,
+    "pct2ResTime" : 70.0,
+    "pct3ResTime" : 70.0,
+    "throughput" : 14.285714285714285,
+    "receivedKBytesPerSec" : 38.78348214285714,
+    "sentKBytesPerSec" : 0.0
+  },
+  "Application Register" : {
+    "transaction" : "Application Register",
+    "sampleCount" : 1,
+    "errorCount" : 1,
+    "errorPct" : 100.0,
+    "meanResTime" : 70.0,
+    "minResTime" : 70.0,
+    "maxResTime" : 70.0,
+    "pct1ResTime" : 70.0,
+    "pct2ResTime" : 70.0,
+    "pct3ResTime" : 70.0,
+    "throughput" : 14.285714285714285,
+    "receivedKBytesPerSec" : 38.78348214285714,
+    "sentKBytesPerSec" : 0.0
+  }
+}
