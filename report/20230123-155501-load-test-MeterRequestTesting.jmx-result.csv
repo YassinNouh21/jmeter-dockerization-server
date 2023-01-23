@@ -1,3 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1674489308093,70,Application Register,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:9443 [localhost/127.0.0.1] failed: Connection refused (Connection refused),172.20.0.2-Server Initialization 1-1,text,false,,2780,0,1,1,https://localhost:9443/api-application-registration/register,0,0,69
-1674489307956,548,Obtain Token,,"Number of samples in transaction : 2, number of failing samples : 1",172.20.0.2-Server Initialization 1-1,,false,,2780,0,1,1,null,0,0,69
