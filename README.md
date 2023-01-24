@@ -4,7 +4,26 @@
 
 Make sure to have Docker up and ready on your host and docker-compose installed
 
-## Add the content for README.md
+1. Clone the repository :
+
+```shell
+git clone <REPO> 
+```
+
+2. Run jmeter-docker.sh :
+
+```shell
+./jmeter-docker.sh
+```
+
+- Before running the above script make sure you have an up and running iot server. 
+
+## Monitor the test
+
+- Once the test is completed then go to the ‘report’ folder and find the index.html inside your relevant report folder to view the test results.
+
+![Screenshot from 2023-01-24 08-37-57](https://user-images.githubusercontent.com/63692107/214204754-e36d13b1-bb43-41a9-8698-86d0db644202.png)
+
 
 ## Options
 
