@@ -1,5 +1,5 @@
 #!/bin/bash
-#compiler will find as this is a bash script
+
 jmx_array=("MeterRequestTesting.jmx" "MeterRequestTesting2.jmx")
 env_filename='.env'
 
