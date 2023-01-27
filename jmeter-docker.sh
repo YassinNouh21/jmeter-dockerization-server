@@ -1,6 +1,6 @@
 #!/bin/bash
 
-jmx_array=("MeterRequestTesting.jmx" "MeterRequestTesting2.jmx")
+jmx_array=("Test1.jmx" "Test2.jmx")
 env_filename='.env'
 
 for jmx_file_name in ${jmx_array[@]}; do
