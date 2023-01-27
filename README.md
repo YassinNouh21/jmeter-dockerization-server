@@ -32,7 +32,7 @@ Options can be set in the .env file or *docker-compose.yml* file directly
 *JMX* required : Your jmx filename  
 *XMX* optional : Set the java heap (default 1g)  
 *XMS* optional : Set the java heap (default 1g)  
-*host* optional : Set the default request hostname on which perform the test (default jsonplaceholder.typicode.com)  
+*host* optional : Set the default request hostname on which perform the test (default localhost)  
 *port* optional : Set the default request port on which perform the test (default 443)  
 *protocol* optional : Set the default request protocol (default https)  
 *threads* optional : Set the number of virtual users to create (default 10)  
