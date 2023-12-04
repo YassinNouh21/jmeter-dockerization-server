@@ -49,7 +49,7 @@
             </collectionProp>
           </elementProp>
           <stringProp name="HTTPSampler.domain">184.105.157.115</stringProp>
-          <stringProp name="HTTPSampler.port">5050</stringProp>
+          <stringProp name="HTTPSampler.port">5006</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.path">/getCardID</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
